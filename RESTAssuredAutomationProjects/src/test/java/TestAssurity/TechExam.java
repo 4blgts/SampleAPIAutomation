@@ -22,7 +22,7 @@ public class TechExam {
 			get().
 		then().
 			statusCode(statuscode);
-			System.out.println("Status code " + statuscode + "received, connection to endpoint successful"); 
+			System.out.println("Status code " + statuscode + " received, connection to endpoint successful"); 
 		
 		//This part is to test the acceptance criteria
 		given().
