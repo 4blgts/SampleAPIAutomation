@@ -1,10 +1,10 @@
-package TestAssurity;
+package apiTestingAssessment;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 import org.testng.annotations.Test;
 
 
-public class TechExam {
+public class SampleTestSuite {
 	
 	@Test
 	public void Test_1() {
