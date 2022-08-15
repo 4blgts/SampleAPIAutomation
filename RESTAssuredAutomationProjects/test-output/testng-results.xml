@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-20T23:50:45 CST" name="Default suite" finished-at="2022-07-20T23:50:49 CST" duration-ms="4270">
+  <suite started-at="2022-08-15T08:52:51 CST" name="Default suite" finished-at="2022-08-15T08:52:57 CST" duration-ms="6628">
     <groups>
     </groups>
-    <test started-at="2022-07-20T23:50:45 CST" name="Default test" finished-at="2022-07-20T23:50:49 CST" duration-ms="4270">
-      <class name="TestAssurity.TechExam">
-        <test-method signature="Test_1()[pri:0, instance:TestAssurity.TechExam@3c73951]" started-at="2022-07-20T23:50:45 CST" name="Test_1" finished-at="2022-07-20T23:50:49 CST" duration-ms="4213" status="PASS">
+    <test started-at="2022-08-15T08:52:51 CST" name="Default test" finished-at="2022-08-15T08:52:57 CST" duration-ms="6628">
+      <class name="apiTestingAssessment.TC003_verifyUserPostRequest">
+        <test-method signature="verifyUserPostRequest()[pri:0, instance:apiTestingAssessment.TC003_verifyUserPostRequest@10d307f1]" started-at="2022-08-15T08:52:51 CST" name="verifyUserPostRequest" finished-at="2022-08-15T08:52:57 CST" duration-ms="6574" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test_1 -->
-      </class> <!-- TestAssurity.TechExam -->
+        </test-method> <!-- verifyUserPostRequest -->
+      </class> <!-- apiTestingAssessment.TC003_verifyUserPostRequest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

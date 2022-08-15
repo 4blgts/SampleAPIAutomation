@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestAssurity.TechExam">
+      <class name="apiTestingAssessment.TC003_verifyUserPostRequest">
         <methods>
-          <include name="Test_1"/>
+          <include name="verifyUserPostRequest"/>
         </methods>
-      </class> <!-- TestAssurity.TechExam -->
+      </class> <!-- apiTestingAssessment.TC003_verifyUserPostRequest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
