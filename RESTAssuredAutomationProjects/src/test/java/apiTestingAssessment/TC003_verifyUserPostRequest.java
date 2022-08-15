@@ -2,13 +2,9 @@ package apiTestingAssessment;
 
 import static io.restassured.RestAssured.given;
 
-import java.util.HashMap;
-import java.util.Map;
-
 import org.json.simple.JSONObject;
 import org.testng.annotations.Test;
 
-import groovy.util.logging.Log;
 import io.restassured.http.ContentType;
 
 public class TC003_verifyUserPostRequest {
@@ -18,7 +14,7 @@ public class TC003_verifyUserPostRequest {
 		
 		
 		//Start of test
-		System.out.println("TC003_verifyUserPostRequest");
+		System.out.println("Started Execution of TC003_verifyUserPostRequest");
 		
 		//Mapping of Request variables
 
@@ -47,6 +43,8 @@ public class TC003_verifyUserPostRequest {
 			get("https://jsonplaceholder.typicode.com/users").
 		then().
 			log().all();
+		
+		System.out.println("Completed Execution of TC003_verifyUserPostRequest");
 		
 	}
 }
